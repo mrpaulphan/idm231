@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Examples - Accessing DOM Elements</title>
+	<style>
+	html {
+		font-size: 150%;
+	}
+
+	</style>
+</head>
+
+<body>
+	<h1>Accessing and Working with DOM Elements</h1>
+	<h2>Access/Update Text Nodes</h2>
+	<section>
+		<ul>
+			<li class="example01">Hello world</li>
+			<li>Goodbye</li>
+		</ul>
+	</section>
+	<section id="example02">
+		<h2 id="working_with_attributes" class="subheading">Working With Attributes</h2>
+		<h3 id="myID">Access By Id</h3>
+		<ul id="myList">
+			<!-- li*3{List Item $} -->
+			<li>List Item 1</li>
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+		</ul>
+		<h3>Other Ways To Access Elements</h3>
+		<ul class="notes">
+			<!-- li.note*3{Note $} -->
+			<li class="note">Note 1</li>
+			<li class="note">Note 2</li>
+			<li class="note">Note 3</li>
+		</ul>
+	</section>
+	<script src="accessing_elements.js"></script>
+</body>
+
+</html>
