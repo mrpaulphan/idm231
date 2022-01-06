@@ -8,7 +8,7 @@ This assignment focuses on getting setup and preparing for your final project.
 
 ### Registrations and Software
 
-1. Register a domain and hosting plan with [Bluehost](https://www.bluehost.com/track/philsinatra/).
+1. Register a domain and hosting plan with [Bluehost](https://www.bluehost.com/track/mrpaulphan/).
     - Register for a standard, basic account.
     - You do not need any of the extra add-ons or additional features that cost additional money.
     - Be professional when choosing your domain name, you'll be using it for the remainder of your college career and probably beyond [Inappropriate Domain Name Examples](http://www.boredpanda.com/worst-domain-names/).

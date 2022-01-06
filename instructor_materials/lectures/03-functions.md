@@ -112,9 +112,9 @@ function updateMessage(name, message) {
   return newMessage;
 }
 
-let myMessage = updateMessage('Phil', 'Welcome to my script!');
+let myMessage = updateMessage('Paul', 'Welcome to my script!');
 
-console.log(myMessage); // Hello Phil, Welcome to my script!
+console.log(myMessage); // Hello Paul, Welcome to my script!
 ```
 
 ^ When you write a function and you expect it to provide you with an answer, the response is known as a **return value**. Using the `return` keyword, the specified value is returned from inside the function, back to the placeholder that originally called the function. When a return statement is encountered, the execution of the function immediately stops and the current value of the returned variable is extracted. If the function contains more lines of code, they are not executed.

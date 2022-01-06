@@ -33,7 +33,7 @@ By the end of the course, student will be able to
 
 ## Required Materials
 
-1. A domain and hosting plan with [Bluehost](https://www.bluehost.com/track/philsinatra/).
+1. A domain and hosting plan with [Bluehost](https://www.bluehost.com/track/mrpaulphan/).
     - Register for a standard, basic account.
     - You do not need any of the extra add-ons or additional features that cost additional money.
     - Be professional when choosing your domain name, you'll be using it for the remainder of your college career and probably beyond [Inappropriate Domain Name Examples](http://www.boredpanda.com/worst-domain-names/).
@@ -47,13 +47,22 @@ By the end of the course, student will be able to
 | Homework Assignments / Class Participation | 60 |
 | Final Project | 40 |
 
+## Grading Policy
+Grading is based upon attendance, class participation, homework assignments and progression in the medium.
+
+Students who are on their laptops or cellphones during class critiques will lose points on their own assignments.
+
+### Homework Assignments
+- 1st late = -15%
+- 2nd late = automatic zero
+
+### Midterm/Final
+- 1 day late = -10%
+- 2 days late = automatic zero
+
 ## Final Project - Custom Zodiac
 
-- [Final Project Assignment](assignments/assignment-final.md)
-
-## Homework Submissions
-
-Homework assignments are due by midnight, the night before class meets. All assignments will be submitted through BlackBoard. Assignments submitted late will receive **zero** points, no exceptions.
+- [Final Project Assignment](../assignments/assignment-final.md)
 
 ## Grading Scale
 

@@ -1,5 +1,5 @@
 build-lists: true
-footer: IDM 221: Web Authoring I
+footer: IDM 231: Scripting for Interactive Digital Media
 slidenumbers: true
 autoscale: true
 theme: Cobalt2, 1
@@ -14,7 +14,7 @@ theme: Cobalt2, 1
 
 [.build-lists: false]
 
-![left](images/avatar.jpg)
+
 
 ## About Me
 
@@ -25,7 +25,7 @@ theme: Cobalt2, 1
 ## About This Course
 
 - [Drexel Learn](https://learn.dcollege.net/webapps/login/)
-- [Course Repository](https://github.com/mrpaulphan/IDM231)
+- [Course Repository](https://github.com/mrpaulphan/idm231)
 
 ^ All course information including syllabus, overview and assignments will be managed through Drexel's Blackboard (BBLearn) system. Let's log in and review the syllabus and course information now.
 
