@@ -20,15 +20,15 @@ By the end of the course, student will be able to
 
 | Week | Topics |
 | ---- | ------ |
-| Week 1 | [Introduction](../lectures/introduction.md) |
-| Week 2 | [Variables](../lectures/variables.md) |
-| Week 3 | [Functions](../lectures/functions.md), [Objects](../lectures/objects.md) |
-| Week 4 | [Decisions](../lectures/decisions.md) & [Loops](../lectures/loops.md) |
-| Week 5 | [Document Object Model (DOM)](../lectures/document-object-model.md) |
-| Week 6 | [Events](../lectures/events.md) |
-| Week 7 | [Web Storage](../lectures/storage.md) & [Timers](../lectures/timers.md) |
-| Week 8 | [Asynchronous Functions](../lectures/async.md) |
-| Week 9 | [Working With JSON](../lectures/json.md) |
+| Week 1 | [Introduction](../lectures/01-introduction.md) |
+| Week 2 | [Variables](../lectures/02-variables.md) |
+| Week 3 | [Functions](../lectures/03-functions.md), [Objects](../lectures/03-objects.md) |
+| Week 4 | [Decisions](../lectures/04-decisions.md) & [Loops](../lectures/04-loops.md) |
+| Week 5 | [Document Object Model (DOM)](../lectures/05-document-object-model.md) |
+| Week 6 | [Events](../lectures/06-events.md) |
+| Week 7 | [Web Storage](../lectures/07-storage.md) & [Timers](../lectures/07-timers.md) |
+| Week 8 | [Asynchronous Functions](../lectures/08-async.md) |
+| Week 9 | [Working With JSON](../lectures/09-json.md) |
 | Week 10 | Open Lab |
 
 ## Required Materials
