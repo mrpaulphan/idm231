@@ -18,14 +18,14 @@ theme: Cobalt2, 1
 
 ## About Me
 
-- Name: Phil Sinatra
-- Email: ps42@drexel.edu
-- GitHub: [@philsinatra](https://github.com/philsinatra)
+- Name: Paul Phan
+- Email: paul.phan@drexel.edu
+- GitHub: [@mrpaulphan](https://github.com/mrpaulphan)
 
 ## About This Course
 
 - [Drexel Learn](https://learn.dcollege.net/webapps/login/)
-- [Course Repository](https://github.com/philsinatra/IDM231)
+- [Course Repository](https://github.com/mrpaulphan/IDM231)
 
 ^ All course information including syllabus, overview and assignments will be managed through Drexel's Blackboard (BBLearn) system. Let's log in and review the syllabus and course information now.
 
