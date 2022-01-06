@@ -20,15 +20,15 @@ By the end of the course, student will be able to
 
 | Week | Topics |
 | ---- | ------ |
-| Week 1 | [Introduction](../slides/introduction.md) |
-| Week 2 | [Variables](../slides/variables.md) |
-| Week 3 | [Functions](../slides/functions.md), [Objects](../slides/objects.md) |
-| Week 4 | [Decisions](../slides/decisions.md) & [Loops](../slides/loops.md) |
-| Week 5 | [Document Object Model (DOM)](../slides/document-object-model.md) |
-| Week 6 | [Events](../slides/events.md) |
-| Week 7 | [Web Storage](../slides/storage.md) & [Timers](../slides/timers.md) |
-| Week 8 | [Asynchronous Functions](../slides/async.md) |
-| Week 9 | [Working With JSON](../slides/json.md) |
+| Week 1 | [Introduction](../lectures/introduction.md) |
+| Week 2 | [Variables](../lectures/variables.md) |
+| Week 3 | [Functions](../lectures/functions.md), [Objects](../lectures/objects.md) |
+| Week 4 | [Decisions](../lectures/decisions.md) & [Loops](../lectures/loops.md) |
+| Week 5 | [Document Object Model (DOM)](../lectures/document-object-model.md) |
+| Week 6 | [Events](../lectures/events.md) |
+| Week 7 | [Web Storage](../lectures/storage.md) & [Timers](../lectures/timers.md) |
+| Week 8 | [Asynchronous Functions](../lectures/async.md) |
+| Week 9 | [Working With JSON](../lectures/json.md) |
 | Week 10 | Open Lab |
 
 ## Required Materials
@@ -44,8 +44,8 @@ By the end of the course, student will be able to
 
 | Class Portion | Total Grade Percentage |
 | ------------- | ---------------------- |
-| Homework Assignments / Class Participation | 50 |
-| Final Project | 50 |
+| Homework Assignments / Class Participation | 60 |
+| Final Project | 40 |
 
 ## Final Project - Custom Zodiac
 
