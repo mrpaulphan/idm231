@@ -37,4 +37,10 @@ Submit the following items in [Drexel Blackboard](https://learn.dcollege.net/) u
 1. Your URL to your purchased domain (e.g. `http://mywebsite.com`)
 1. Your URL to your Github project page (e.g. `https://github.com/mrpaulphan/idm231`)
 
+Example Submission
+```
+Domain: http://mywebsite.com
+Github: https://github.com/mrpaulphan
+```
+
 **Late submissions receive zero points.**
