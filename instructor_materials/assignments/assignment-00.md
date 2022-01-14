@@ -18,7 +18,7 @@ This assignment focuses on getting setup and preparing for your final project.
 
 ### Content Preparation
 
-Begin planning your final project by documenting and gathering/preparing assets. Suggested planning:
+Begin planning your [final](https://github.com/mrpaulphan/idm231/blob/master/instructor_materials/assignments/assignment-final.md) project by documenting and gathering/preparing assets. Suggested planning:
 
 - Create a [flowchart](http://digm.drexel.edu/crs/IDM231/cdn/instructor_materials/images/02-flowchart.png) that outlines how the application will work.
 - Create a [wireframe](https://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399) for your application screen(s).
@@ -35,12 +35,15 @@ Begin planning your final project by documenting and gathering/preparing assets.
 Submit the following items in [Drexel Blackboard](https://learn.dcollege.net/) under **Assignment: Preparation**:
 
 1. Your URL to your purchased domain (e.g. `http://mywebsite.com`)
-1. Your URL to your Github project page (e.g. `https://github.com/mrpaulphan/idm231`)
-
+2. Your URL to your Github project page (e.g. `https://github.com/mrpaulphan/idm231`)
+3. A short paragraph about your final project idea and design. Feel free to include any images, designs, files (not required).
+   
 Example Submission
 ```
 Domain: http://mywebsite.com
 Github: https://github.com/mrpaulphan
+Final Project Idea:
+A short paragraph about my final project and what i'll be creating. This can change in the future but it's forcing me to think about what I want to design/build. I've also attached some mockup designs if you want to see it. 
 ```
 
 **Late submissions receive zero points.**

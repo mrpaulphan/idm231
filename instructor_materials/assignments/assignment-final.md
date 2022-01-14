@@ -1,6 +1,6 @@
 # IDM231 Final Project
 
-This page describes an assignment for this course. Due dates and submissions are handled through [Drexel Blackboard](https://learn.dcollege.net/).
+This page describes an assignment for this course. Due dates and submissions are handled through [Drexel Blackboard](https://learn.dcollege.net/). You can view some previous examples [here online](https://digm.drexel.edu/uxid/?s=idm231)
 
 ## Final Project
 
