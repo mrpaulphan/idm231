@@ -36,7 +36,8 @@ Submit the following items in [Drexel Blackboard](https://learn.dcollege.net/) u
 
 1. Your URL to your purchased domain (e.g. `http://mywebsite.com`)
 2. Your URL to your Github project page (e.g. `https://github.com/mrpaulphan/idm231`)
-3. A short paragraph about your final project idea and design. Feel free to include any images, designs, files (not required).
+3. A short paragraph about your final project idea and design. 
+    * (Optional) Feel free to include any images, designs, files.
    
 Example Submission
 ```
