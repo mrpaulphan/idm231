@@ -1,4 +1,36 @@
 // Arrays
+const firstName = "Paul";
+const pokemons = [
+  "Austin",
+  "Paul",
+  "Sasha",
+  "Anuj",
+  "Tony",
+  "Alexis",
+  "Lianna",
+  "Cindy",
+];
+console.log(`Wow we have ${pokemons.length} Pokemons`);
+
+// console.log(pokemons[0]);
+// console.log(pokemons[2]);
+// console.log(pokemons[6]);
+
+// Objects
+const person = {
+  firstName: "Paul",
+  lastName: "Phan",
+  email: "paul@mrpaulphan.com",
+  fullName: function () {
+    return `${this.firstName} ${this.lastName}`;
+  },
+};
+console.log(person.firstName);
+console.log(person.lastName);
+console.log(person.email);
+console.log(person.fullName());
+
+// Arrays
 const myArray = [];
 
 console.log("myArray.length: " + myArray.length);
