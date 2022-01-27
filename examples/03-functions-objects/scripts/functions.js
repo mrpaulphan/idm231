@@ -21,10 +21,23 @@ function emailJervo() {
 
 emailJervo();
 
-printHello = () => {
-  // console.log("Hello");
+function calculateZodiacSign() {
+  return "Hello";
+}
+
+calculateZodiacSign = () => {
   return "Hello";
 };
 
-let example = printHello();
-console.log(example);
+function findAreaOfRec(base, height) {
+  return base * height;
+}
+
+findAreaOfRec = (base, height) => {
+  return base * height;
+};
+
+let area = findAreaOfRec(200, 80);
+console.log(area);
+alert(area);
+// find the div and insert this number on the page
