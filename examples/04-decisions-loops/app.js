@@ -1,123 +1,49 @@
-const data = ["Eagles", "Flyers", "Sixers", "Phillies"];
-const app = document.getElementById("root");
+const phillySportsTeam = ["Eagles", "Flyers", "Sixers", "Phillies"];
 
-const createButton = (team) => {
+/**
+ * Manually create a button with JS and update the button with text
+ * @param {string} name
+ * @returns {Element}
+ */
+function createButton(name) {
+  // Create a "button" element
   const button = document.createElement("button");
+  // Update the button with text
+  button.innerHTML = name;
 
-  button.innerHTML = team;
-  button.classList.add("btn");
-  // button.id = team.toLowerCase();
-  button.id = `btn-${team.toLowerCase()}`;
-
+  // Manipulate the attributes such as class, id, style
+  button.classList.add("btn-primary");
+  button.id = "sports-" + name;
+  // change background color based on name
+  if (name === "Flyers") {
+    // button.classList.add("is-flyers");
+    button.style.backgroundColor = "orange";
+  } else if (name === "Eagles") {
+    button.style.backgroundColor = "green";
+  } else if (name === "Sixers") {
+    button.style.backgroundColor = "blue";
+  } else if (name === "Phillies") {
+    button.style.backgroundColor = "red";
+  }
+  // return the button element we created with all of the attributes and text
   return button;
-};
+}
 
-// for (let i = 0; i < data.length; i++) {
-//   const team = data[i];
-//   const teamButton = createButton(team);
-//   app.appendChild(teamButton);
-// }
+/**
+ * Builds buttons and adds it to the page
+ */
+function buildButtons() {
+  // get an element on the page with an ID of "root"
+  const divContainer = document.getElementById("root");
+  // Loop through all of the sport teams
+  for (let i = 0; i < phillySportsTeam.length; i++) {
+    let teamName = phillySportsTeam[i];
+    // call createbutton() function and pass the teamName with it
+    const teamButton = createButton(teamName);
+    // get the div and add an element to the end of the div. In this case, we're adding the button we created
+    divContainer.appendChild(teamButton);
+  }
+}
 
-// data.forEach(team => {
-//   const teamButton = createButton(team);
-//   app.appendChild(teamButton);
-// });
-
-const buildButtons = () => {
-  data.forEach((team) => {
-    const teamButton = createButton(team);
-    app.appendChild(teamButton);
-  });
-};
-
-window.onload = () => {
-  console.log("window loaded!");
-
-  buildButtons();
-};
-
-// // Evaluation Conditions & Statements
-// if (score > 50) {
-//   console.log("You passed!");
-// } else {
-//   console.log("Try again.");
-// }
-
-// // Comparison Operators
-// // Operator	Meaning
-// // ==	is equal to
-// // !=	is not equal to
-// // ===	strict equal to
-// // !==	strict not equal to
-
-// "Hello" == "Goodbye"; // false
-
-// "Hello" == "Hello"; // true
-
-// "Hello" != "Goodbye"; // true
-
-// "Hello" != "Hello"; // false
-
-// "3" === 3; // false
-
-// "3" === "3"; // true
-
-// "3" !== 3; // true
-
-// "3" !== "3"; // false
-
-// // Other Comparison Operators
-// // Operator	Meaning
-// // >	greater than
-// // <	less than
-// // >=	greater than or equal to
-// // <=	less than or equal to
-
-// // ((score1 + score2) > (high_score1 + high_score2))
-
-// // Logical Operators
-
-// (2 < 5 && 3 >= 2)(
-//   // AND
-
-//   2 < 5 || 2 < 1
-// ); // OR
-
-// !(2 < 1); // NOT
-
-// // If Statments
-// const level = 'one';
-// let title;
-
-// if (level === 'one') {
-//   title = 'Level 1';
-// } else if (level === 'two') {
-//   title = 'Level 2';
-// } else if ((level === 'three') || (level === 'four')) {
-//   title = 'Level 3 or 4';
-// }
-
-// // Check existance
-// const myElement = document.getElementById('header');
-
-// if (myElement) {
-//   // Element exists, let's do something
-// } else {
-
-// }
-
-// // Switch Statements
-
-// switch (level) {
-//   case 'one':
-//     title = 'Level 1';
-//     break;
-//   case 'two':
-//     title = 'Level 2';
-//     break;
-//   default:
-//     title = 'Level not 1 or 2';
-//     break;
-// }
-
-// // ^ A switch statement starts with a variable called the switch value. Each case indicates a possible value for this variable and the code that should run if the variable matches that value.
+// Call function
+buildButtons();
