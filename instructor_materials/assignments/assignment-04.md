@@ -22,6 +22,11 @@ Submit the following items in [Drexel Blackboard](https://learn.dcollege.net/) u
 
 1. Public link to your functional assignment
 
+**Example Submission**
+```
+Demo: https://mrpaulphan.com/idm231/assignment-04/index.html
+```
+
 **Late submissions receive zero points. | Failing to follow instructions will lead to point deductions**
 
 
