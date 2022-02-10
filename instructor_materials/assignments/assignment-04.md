@@ -1,39 +1,27 @@
-# IDM231 Assignment 4: Document Object Model (DOM)
+# IDM231 Assignment 4: Date Input functionality
+Create a simple page with an area for a user to add their birthday. Based on the input date, we want to tell the user what season their birthday falls in. For example, if the user inputs 7/12/93, we should output the sample below onto the page
 
-This page describes an assignment for this course. Due dates and submissions are handled through [Drexel Blackboard](https://learn.dcollege.net/).
+```
+Birthday: 7/12/93
+Season: Summer
+```
 
-## Assignment 4: Document Object Model (DOM)
+Assume
+- Spring range is from March 22 - June 21
+- Summer range is June 22 - September 21
+- Fall range is September 22 - December 21
+- Winter range is December 22 - March 21
 
-1. Complete [_Assignment 4: Document Object Model (DOM)_](https://idm-hw.netlify.com/).
-
-Follow the instructions on screen and complete the assignment questions. When you have answered all of the questions and are satisfied with your score, select the submit button at the bottom of the page. You'll receive a confirmation number that you must enter in [Drexel Blackboard](https://learn.dcollege.net/) under _Assignment 4: Document Object Model (DOM)_.
-
-## Suggested Work
-
-- Expand your script planning.
-  - What type of conditional statements can you begin writing? (refer back to your script flowchart)?
-  - Begin populating variables with values.
-
-    ```javascript
-    var signs = {
-      'details': [
-        'name': 'Tarus',
-        'image': 'bull.jpg'
-      ]
-    }
-    ```
-
-  - Can you begin building any loops to work with these variables?
-- Continue working on HTML/CSS structure for your application.
-- Continue building graphics/media assets.
-- Adjust documentation as needed as your project evolves.
-
+You can create a folder on your server called `idm231` inside your `public_html`. Inside that folder, you can create another folder called `assignment-4`. Your folder structure should look something like this `public_html/idm231/assignment-4`
+# Requirements
+- JavaScript must be included using an external file
+- After clicking a button, the date and the season if falls in must be displayed on the page
 ## Submitting the Assignment
 
 Submit the following items in [Drexel Blackboard](https://learn.dcollege.net/) under **Assignment 4**:
 
-1. Your confirmation code that you receive after completing _Assignment 4: Document Object Model (DOM)_.
+1. Public link to your functional assignment
 
-**Late submissions receive zero points.**
+**Late submissions receive zero points. | Failing to follow instructions will lead to point deductions**
 
-If you do any additional work, add your file(s) to your Github repository. Submit the URL to your repository page on Github.
+
