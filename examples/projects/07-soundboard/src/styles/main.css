@@ -8,6 +8,7 @@ html {
 	margin: 0 auto;
 	max-width: 1000px;
 }
+
 .row {
 	display: flex;
 	margin-top: 50px;
