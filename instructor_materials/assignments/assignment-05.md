@@ -1,48 +1,39 @@
-# IDM231 Assignment 5: Events
+# IDM231 Final Project Beta
 
-This page describes an assignment for this course. Due dates and submissions are handled through [Drexel Blackboard](https://learn.dcollege.net/).
+This page describes an assignment for this course. Due dates and submissions are handled through [Drexel Blackboard](https://learn.dcollege.net/). You can view some previous examples [here online](https://digm.drexel.edu/uxid/?s=idm231)
 
-## Assignment 5: Events
+## Beta (20 points)
 
-1. Complete [_Assignment 5: Events_](https://idm-hw.netlify.com/).
+Students will create their own custom zodiac web page based upon the Zodiac Algorithm to be delivered online.
 
-Follow the instructions on screen and complete the assignment questions. When you have answered all of the questions and are satisfied with your score, select the submit button at the bottom of the page. You'll receive a confirmation number that you must enter in [Drexel Blackboard](https://learn.dcollege.net/) under _Assignment 5: Events_.
+- Have HTML, CSS 80% complete.
+- Clicking on sign plays unique sound effect
+- Clicking Help button displays help screen
 
-## Suggested Work
-
-- Implement DOM manipulation
-  - Can you create or adjust any content (or portions of the UI) as the page loads?
-  - Can you build any functions for adding/editing/removing nodes later?
-
-    ```javascript
-    function showSign(which_sign) {
-      sign_stage.appendChild(which_sign);
-      sign_details.innerHTML = signs.library[which_sign].details;
-    }
-    ```
-
-- Begin documenting and testing of events for your application.
-  - What type of events do you need (refer to your flowchart)?
-    - blur
-    - click
-    - focus
-    - load
-    - resize
-    - submit
-- Validate all of your code and clear any errors.
-  - [HTML Validator](https://validator.w3.org)
-  - [CSS Validator](https://jigsaw.w3.org/css-validator/)
-  - [JavaScript Validator](http://beautifytools.com/javascript-validator.php)
-- Continue working on HTML/CSS structure for your application.
-- Continue building graphics/media assets.
-- Adjust documentation as needed as your project evolves.
+1. Code Quality
+   - Is all of your code valid?
+   - Did you follow best practices regarding file names, characters, coding styles?
+   - Is your code legible and easy to navigate?
+   - Does your code use comments?
+2. Functionality
+   - Everything needs to work (e.g. links, videos, audio, images, rollovers etc.). If it's part of your site it must be working properly.
+3. Design
+   - Is your site visually pleasing?
+   - Is your content legible with proper contrast, color scheme, typography etc.?
+   - Would you feel comfortable using this project in a job interview as an example of your skills?
 
 ## Submitting the Assignment
 
-Submit the following items in [Drexel Blackboard](https://learn.dcollege.net/) under **Assignment 5**:
+Submit the following items in [Drexel Blackboard](https://learn.dcollege.net/) under **Final Project**:
 
-1. Your confirmation code that you receive after completing _Assignment 5: Events_.
+1. A link to your self hosted website project page. From this page, I can fully engage the project and have access to all supplementary pages and functions.
+2. A link to your GitHub repository containing the code for your final project. Remember: a well maintained repository does not include binary files, but these files are essential to your project. Host the files on your server and use documentation within your project to include references and links for downloads of critical binary files.
+
+Example Submission
+
+```
+Beta: {link-to-your-final}
+Repo: {link-to-your-repo-with-your-updated-code}
+```
 
 **Late submissions receive zero points.**
-
-If you do any additional work, add your file(s) to your Github repository. Submit the URL to your repository page on Github.

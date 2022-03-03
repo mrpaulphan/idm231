@@ -1,19 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IDM231</title>
-</head>
-<body>
-  <h1>Are you old enough to drink?</h1>
-  <form action="">
-    <label for="birthdayInput">Birthday</label>
-    <input id="birthdayInput" type="date" name="birthday">
-    <button class="js-submit-button">Submit</button>
-  </form>
-  <div data-content-area></div>
-  <script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDM231</title>
+    <style>
+      .hidden {
+        display: none;
+      }
+      .content-1 {
+        color: red;
+      }
+      .content-2 {
+        color: blue;
+      }
+      .content-4 {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Show/Hide</h1>
+    <p>
+      This example will show a hidden div. We will manually add/remove the class
+      'hidden'
+    </p>
+    <button class="js-click-me">Click Me</button>
+    <div class="js-hidden-content hidden">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, autem.
+      Quod pariatur natus tempora corrupti, nostrum dolorum beatae voluptatum
+      assumenda provident suscipit, unde asperiores. Quam soluta dolor sed
+      ducimus vero.
+    </div>
+    <br />
+    <p>
+      This example will show a hidden div. We will manually add `display: block`
+    </p>
+    <button class="js-click-me-2">Click Me 2</button>
+    <div class="js-hidden-content-2 hidden">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, autem.
+      Quod pariatur natus tempora corrupti, nostrum dolorum beatae voluptatum
+      assumenda provident suscipit, unde asperiores. Quam soluta dolor sed
+      ducimus vero.
+    </div>
+    <hr />
+    <br />
+    <br />
+    <br />
+    <p>
+      This is an example of having a bunch of buttons that perform a similar
+      action. Instead of writing the same code multiple times, we can use custom
+      data attributes to find/connect existing elements.
+    </p>
+    <button class="js-button" data-button-for="content1">Button 1</button>
+    <button class="js-button" data-button-for="content2">Button 2</button>
+    <button class="js-button" data-button-for="content3">Button 3</button>
+
+    <div class="hidden content-1" data-content="content1">
+      Show Content for Button 1
+    </div>
+    <div class="hidden content-3" data-content="content2">
+      Show Content for Button 2
+    </div>
+    <div class="hidden content-3" data-content="content3">
+      Show Content for Button 3
+    </div>
+  </body>
 </html>
