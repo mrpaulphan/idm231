@@ -2,6 +2,8 @@
 
 This page describes an assignment for this course. Due dates and submissions are handled through [Drexel Blackboard](https://learn.dcollege.net/). You can view some previous examples [here online](https://digm.drexel.edu/uxid/?s=idm231)
 
+**Zoom Recording** [link](https://drexel.zoom.us/rec/share/qPQkMswmgIrPTheMuV5GPoPdatqB7uCF2EP8tKrmYxHi2jPMpXFwYON2Fn_z6W63.cTYcW4tn4P-M_gVp)
+
 ## Final Project (40 points)
 
 Students will create their own custom zodiac web page based upon the Zodiac Algorithm to be delivered online.
