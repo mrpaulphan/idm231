@@ -39,6 +39,8 @@ Example Submission
 ```
 Final: {link-to-your-final}
 Repo: {link-to-your-repo-with-your-updated-code}
+
+Additional Comments: (List anything extra that you think is extra credit worthy. I will review this and determine if you get extra credit)
 ```
 
 **Late submissions receive zero points.**
